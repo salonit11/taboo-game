@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <center>
+    <h1>Hello , Welcome to my Game Room ! {{request.user}}</h1>
+  </center>
+  <br>
+  {% if request.user.is_authenticated %}
+  <center> Logout the chat Page <a href="{% url 'logout-user' %}">Logout</a></center>
+  {% endif %}
+
+  <div id="displayscore"></div>
+
+  <button id="joinTeam1">Join Team 1</button>
+  <button id="joinTeam2">Join Team 2</button>
+
+  <div class="team-1">
+    <h2>Team 1 Players:</h2>
+    <ul id="team1Players">
+    </ul>
+  </div>
+
+  <div class="team-2">
+    <h2>Team 2 Players:</h2>
+    <ul id="team2Players">
+    </ul>
+  </div>
+  <div id="stopwatchDisplay"></div>
+
+  <br />
+  <div>
+    <input type="text" id="id_message_send_input" />
+    <button type="submit" id="id_message_send_button">Send Message</button>
+
+  </div>
+  <div class="chat__item__container" id="id_chat_item_container" style="font-size: 20px">
+    <br />
+    <br />
+  </div>
+
+
+
+
+  <div class="describer-buttons" id="describerButtons" style="display: none;">
+    <button id="startButton">Start</button>
+    <button id="skipButton">Skip</button>
+  </div>
+  <div id="wordListContainer"></div>
+
+  <script>
+    const chatSocket = new WebSocket("ws://" + window.location.host + "/");
+    let rounds = 0
+
+    const messages = []
+    let currentGuessingTeam = null
+
+    // connection made
+    chatSocket.onopen = function(e) {
+      console.log("The connection was setup successfully !");
+    };
+
+    // connection disconnected
+    chatSocket.onclose = function(e) {
+      console.log("Something unexpected happened !");
+    };
+
+
+
+    const currentPlayerUsername = "{{request.user.username}}";
+
+    const message_input = document.querySelector("#id_message_send_input")
+    const message_input_button = document.querySelector("#id_message_send_button")
+    const chatContainer = document.querySelector("#id_chat_item_container");
+    const describerButtons = document.getElementById('describerButtons');
+
+
+    message_input.focus();
+    // submit on enter
+    message_input.onkeyup = function(e) {
+      if (e.keyCode == 13) {
+        document.querySelector("#id_message_send_button").click();
+      }
+    };
+
+    // button submit handle 
+    message_input_button.onclick = function(e) {
+      var messageInput = document.querySelector(
+        "#id_message_send_input"
+      ).value;
+      chatSocket.send(JSON.stringify({
+        message: messageInput,
+        username: currentPlayerUsername,
+        teamname: currentPlayerTeam,
+
+      }));
+    };
+
+    let selectedWords = []
+    const stopwatchDisplay = document.getElementById('stopwatchDisplay');
+    let describerSet = false
+
+
+    chatSocket.onmessage = function(e) {
+      const data = JSON.parse(e.data);
+
+      // receive message 
+      if (data.type === "chat-message") {
+
+        var div = document.createElement("div");
+        div.innerHTML = data.username + " : " + data.message;
+        document.querySelector("#id_message_send_input").value = "";
+        document.querySelector("#id_chat_item_container").appendChild(div);
+        messages.push(data.message)
+        // checkWords(data.message,selectedWords,data.teamname)
+
+
+        // Receives team joined data 
+        if (data.type === "team-joined") {
+          // Handle team-joined event
+          const username = data.username;
+          const teamname = data.teamname;
+
+          // Update the UI based on the event data
+          if (teamname === "team1") {
+            addPlayerToTeam1(username);
+          } else if (teamname === "team2") {
+            addPlayerToTeam2(username);
+          }
+
+          if (areTeamsReady() && !describerSet) {
+            const firstLi = team1PlayersList.querySelector('li:first-child');
+            const textContent = firstLi.textContent;
+            chatSocket.send(JSON.stringify({
+              type: "update-describer",
+              username: textContent,
+              teamname: 'team1',
+              message: ""
+            }))
+            currentGuessingTeam = 'team1'
+            describerSet = true
+          }
+        }
+
+      }
+      if (data.type === "update_describer") {
+        // Handle describer update here
+        const newDescriberUsername = data.username;
+        currentPlayerTeam = data.teamname
+        // console.log(data.teamname)
+        updateDescriberScreen(newDescriberUsername);
+        describerSet = true
+
+        const isDescriber = (newDescriberUsername === currentPlayerUsername)
+        set_guessing_team(data.guessingteam, isDescriber)
+
+        // Update the UI to reflect the new describer
+        updateButtonVisibility(isDescriber)
+      }
+      if (data.type === "round-over") {
+        rounds += 1
+        if (rounds < 2) {
+          displayScore(data.teamname)
+          resetViewAndRound()
+
+        } else {
+          gameOver()
+        }
+      }
+      if ('time_remaining' in data) {
+        const wordlist = data.wordlist
+        const timeRemaining = data['time_remaining'];
+        updateStopwatchDisplay(timeRemaining);
+        console.log(data)
+
+        const isDescriber = (data.username === currentPlayerUsername)
+        set_word_list_container(data.wordlist, isDescriber)
+        // console.log(data)
+        checkWords(data.teamname, data.wordlist)
+      }
+      if (data.type === "game-over") {
+        gameOver()
+      }
+
+    }
+    const start_game_button = document.getElementById('startButton')
+
+    function rotatePlayerList(ulElement) {
+      // Get the list items (players) as an array
+      const listItems = Array.from(ulElement.children);
+
+      // Remove the first player from the list
+      const firstPlayer = listItems.shift();
+
+      // Add the removed player to the end of the list
+      ulElement.appendChild(firstPlayer);
+    }
+
+
+    function gameOver() {
+      var t1 = 'team1'
+      var t2 = 'team2'
+      // alert("Team 1 Score:", teamScores['team1'], "Team 2 Score", teamScores['team2'])
+      alert(`Team 1 Score ${teamScores[t1]} \n Team 2 Score ${teamScores[t2]}`)
+      team1PlayersList.innerHTML = '';
+
+      team2PlayersList.innerHTML = '';
+      wordListContainer.innerHTML = ""
+      stopwatchDisplay.innerHTML = '';
+      describerButtons.style.display = 'none'
+      message_input.style.display = "block"
+      message_input_button.style.display = "block"
+      document.getElementById('displayscore').innerHTML = ""
+      clearChat()
+
+    }
+
+    function clearChat() {
+
+      while (chatContainer.firstChild) {
+        chatContainer.removeChild(chatContainer.firstChild);
+      }
+    }
+
+
+    function resetViewAndRound() {
+      if (currentGuessingTeam == "team1") {
+        const firstLi = team2PlayersList.querySelector('li:first-child');
+        const textContent = firstLi.textContent;
+        chatSocket.send(JSON.stringify({
+          type: "update-describer",
+          username: textContent,
+          teamname: 'team2',
+          message: ""
+        }))
+        rotatePlayerList(team1PlayersList)
+
+      } else {
+        const firstLi = team1PlayersList.querySelector('li:first-child');
+        const textContent = firstLi.textContent;
+        chatSocket.send(JSON.stringify({
+          type: "update-describer",
+          username: textContent,
+          teamname: 'team1',
+          message: ""
+        }))
+        rotatePlayerList(team2PlayersList)
+
+      }
+      clearChat()
+      start_game_button.innerHTML = "Next"
+      wordListContainer.innerHTML = ""
+      stopwatchDisplay.innerHTML = ""
+    }
+
+    const wordListContainer = document.getElementById('wordListContainer');
+    const teamScores = {};
+
+    const guessedWords = [];
+    const processedWords = []; // To keep track of words that have been processed
+    function checkWords(teamname, wordlist) {
+      // Assuming messages is an array of words
+
+
+      messages.forEach(message => {
+        wordlist.forEach(wordInfo => {
+          const word = wordInfo[0].toLowerCase();
+          if (word === message.toLowerCase() && !processedWords.includes(word)) {
+            const score = wordInfo[1];
+            const playerTeam = teamname;
+
+            // Update the team's score (You should define the updateTeamScore function)
+            updateTeamScore(playerTeam, score);
+
+            // Add the guessed word to the array of processed words
+            processedWords.push(word);
+
+            // Add the guessed word to the array of guessed words
+            guessedWords.push(word);
+            console.log(`Guessed word: ${word}, Score: ${score}`);
+          }
+        });
+      });
+
+    }
+    let guessingTeamPlayers = null
+
+    function set_word_list_container(wordlist, isDescriber) {
+
+      display_input = guessingTeamPlayers.some(player => player.textContent.includes(currentPlayerUsername))
+      if (!display_input || isDescriber) {
+
+        if (wordListContainer.innerHTML == "") {
+          wordListContainer.innerHTML = '<h2>Selected Words:</h2><ul>';
+          wordlist.forEach(word => {
+            wordListContainer.innerHTML += `<li>${word[0]} (Score: ${word[1]})</li>`;
+          });
+          wordListContainer.innerHTML += '</ul>';
+        }
+      } else {
+        wordListContainer.style.display = 'none'
+      }
+    }
+
+    function set_guessing_team(team_name, isDescriber) {
+      currentGuessingTeam = team_name
+      if (currentGuessingTeam === 'team1') {
+        guessingTeamPlayers = Array.from(team1Players.children);
+      } else if (currentGuessingTeam === 'team2') {
+        guessingTeamPlayers = Array.from(team2Players.children);
+        // console.log(guessingTeamPlayers)
+      }
+
+      display_input = guessingTeamPlayers.some(player => player.textContent.includes(currentPlayerUsername))
+      if (!display_input || isDescriber) {
+        message_input.style.display = 'none'
+        message_input_button.style.display = 'none'
+        wordListContainer.style.display = "block"
+
+      } else {
+        message_input.style.display = 'block'
+        message_input_button.style.display = 'block'
+        wordListContainer.style.display = "none"
+
+      }
+    }
+    // Check if the message is in the word list
+
+    // Function to update the team score
+    function updateTeamScore(teamName, score) {
+      console.log(teamScores)
+      if (teamScores.hasOwnProperty(teamName)) {
+        // If the team exists in the scores object, add the score
+        teamScores[teamName] += score;
+      } else {
+        // If the team doesn't exist, create a new entry with the score
+        teamScores[teamName] = score;
+      }
+
+      // Optionally, you can log or display the updated scores
+      console.log(`Team ${teamName} score: ${teamScores[teamName]}`);
+    }
+
+    function displayScore(teamname) {
+      // console.log(teamname)
+      document.getElementById('displayscore').innerHTML = `Score ${teamScores[teamname]}`
+    }
+
+
+    // checks for 2 or more players
+
+    function areTeamsReady() {
+      const team1PlayersCount = team1PlayersList.children.length;
+      const team2PlayersCount = team2PlayersList.children.length;
+      return team1PlayersCount >= 2 && team2PlayersCount >= 2;
+    }
+
+
+
+    const joinTeam1Button = document.getElementById('joinTeam1');
+    const joinTeam2Button = document.getElementById('joinTeam2');
+    const team1PlayersList = document.getElementById('team1Players');
+    const team2PlayersList = document.getElementById('team2Players');
+    let currentPlayerTeam = null;
+    playerIsInTeam1 = false
+    playerIsInTeam2 = false
+
+    function isPlayerInTeam1(playerName) {
+      const team1Players = Array.from(team1PlayersList.children);
+      return team1Players.some(player => player.textContent.includes(playerName));
+    }
+
+    // Function to check if a player is already in Team 2
+    function isPlayerInTeam2(playerName) {
+      const team2Players = Array.from(team2PlayersList.children);
+      return team2Players.some(player => player.textContent.includes(playerName));
+    }
+
+    // Function to remove a player from Team 1
+    function removePlayerFromTeam1(playerName) {
+      const team1Players = Array.from(team1PlayersList.children);
+      const playerToRemove = team1Players.find(player => player.textContent.includes(playerName));
+      if (playerToRemove) {
+        team1PlayersList.removeChild(playerToRemove);
+      }
+    }
+
+    // Function to remove a player from Team 2
+    function removePlayerFromTeam2(playerName) {
+      const team2Players = Array.from(team2PlayersList.children);
+      const playerToRemove = team2Players.find(player => player.textContent.includes(playerName));
+      if (playerToRemove) {
+        team2PlayersList.removeChild(playerToRemove);
+      }
+    }
+    // Function to add a player to Team 1
+    function addPlayerToTeam1(playerName) {
+      if (!isPlayerInTeam1(playerName)) {
+        if (currentPlayerTeam === 'team2') {
+          removePlayerFromTeam2(playerName);
+        }
+        currentPlayerTeam = 'team1';
+        const listItem = document.createElement('li');
+        listItem.textContent = playerName;
+        team1PlayersList.appendChild(listItem);
+
+
+      } else {
+        alert('Player is already in Team 1!');
+      }
+    }
+
+    // Function to add a player to Team 2
+    function addPlayerToTeam2(playerName) {
+      if (!isPlayerInTeam2(playerName)) {
+        if (currentPlayerTeam === 'team1') {
+          removePlayerFromTeam1(playerName);
+        }
+        currentPlayerTeam = 'team2';
+        const listItem = document.createElement('li');
+        listItem.textContent = playerName;
+        team2PlayersList.appendChild(listItem);
+
+
+      } else {
+        alert('Player is already in Team 2!');
+      }
+    }
+
+
+
+
+    // Add a click event listener for "Join Team 1" button
+    joinTeam1Button.addEventListener('click', function() {
+      if (playerIsInTeam1 === false && playerIsInTeam2 === false) {
+        const teamName = "team1";
+        chatSocket.send(JSON.stringify({
+          type: "team-joined",
+          username: currentPlayerUsername,
+          teamname: teamName,
+          message: ""
+        }));
+        playerIsInTeam1 = true
+      }
+    });
+
+    // Add a click event listener for "Join Team 2" button
+    joinTeam2Button.addEventListener('click', function() {
+      if (playerIsInTeam1 === false && playerIsInTeam2 === false) {
+        const teamName = "team2";
+        chatSocket.send(JSON.stringify({
+          type: "team-joined",
+          username: currentPlayerUsername,
+          teamname: teamName,
+          message: ""
+        }));
+        playerIsInTeam2 = true
+      }
+    });
+
+
+
+    function updateDescriberScreen(describerUsername) {
+      console.log(`${describerUsername} is the describer `);
+
+    }
+
+    function updateButtonVisibility(isDescriber) {
+
+      // Implement logic to show/hide Start and Skip buttons based on isDescriber value
+      if (isDescriber) {
+        describerButtons.style.display = 'block';
+        message_input.style.display = 'none'
+        message_input_button.style.display = 'none'
+
+      } else {
+        // Hide the Start and Skip buttons
+        describerButtons.style.display = 'none';
+        // message_input.style.display = 'none'
+        // message_input_button.style.display = 'none'
+
+      }
+    }
+
+    let timerInterval;
+    let secondsRemaining = 60; // 1 minute
+    let finish = false
+
+    // Function to update the stopwatch display
+    function updateStopwatchDisplay(secondsRemaining) {
+
+      const minutes = Math.floor(secondsRemaining / 60);
+      const seconds = secondsRemaining % 60;
+      stopwatchDisplay.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+    }
+
+    // Function to start the stopwatch
+
+    function startStopwatch(word_list) {
+      timerInterval = setInterval(function() {
+        secondsRemaining--;
+        console.log(currentPlayerUsername)
+        console.log(currentPlayerTeam)
+        chatSocket.send(JSON.stringify({
+          type: "round-start",
+          username: currentPlayerUsername,
+          teamname: currentPlayerTeam,
+          message: "",
+          timer: secondsRemaining,
+          wordlist: word_list
+        }))
+        if (secondsRemaining <= 0) {
+          chatSocket.send(JSON.stringify({
+            type: "round-over",
+            username: currentPlayerUsername,
+            teamname: currentPlayerTeam,
+            message: "",
+
+          }))
+          clearInterval(timerInterval);
+          // Stopwatch has reached 0 seconds, handle it here
+        }
+        updateStopwatchDisplay();
+      }, 1000); // Update every 1 second (1000 milliseconds)
+    }
+
+    // clicks start button
+    start_game_button.addEventListener('click', () => {
+      fetch('/get_word_data/') // Update the URL to match your Django view's URL
+        .then(response => response.json())
+        .then(data => {
+
+          selectedWords = data
+
+          wordListContainer.innerHTML = '<h2>Selected Words:</h2><ul>';
+          selectedWords.forEach(word => {
+            wordListContainer.innerHTML += `<li>${word[0]} (Score: ${word[1]})</li>`;
+          });
+          wordListContainer.innerHTML += '</ul>';
+          var finished = true
+          startStopwatch(selectedWords)
+        })
+        .catch(error => console.error('Error:', error));
+    })
+  </script>
+</body>
+
+</html>

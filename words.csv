@@ -1,0 +1,1627 @@
+,Words,Difficulty,Score
+0,Alpaca,Easy,6
+1,Amazon duck,Easy,6
+2,Anemonefish,Moderate,10
+3,Anteater,Easy,7
+4,Antelope,Easy,6
+5,Arctic wolf,Easy,7
+6,Asian elephant,Easy,6
+7,Badger,Easy,7
+8,Bahama duck,Easy,6
+9,Bar-headed goose,Easy,7
+10,Bat,Easy,5
+11,Bear,Easy,5
+12,Bengal Tiger,Easy,6
+13,Bison,Easy,6
+14,Bonobo,Easy,7
+15,Brewer's duck,Easy,7
+16,Butterfly,Easy,5
+17,Cat,Easy,4
+18,Cheetah,Easy,6
+19,Chicken goose,Easy,5
+20,Chicken,Easy,5
+21,Chihuahua,Easy,4
+22,Chimpanzee,Easy,5
+23,Chinchilla,Moderate,10
+24,Coati,Easy,6
+25,Cow,Easy,5
+26,Crocodile,Easy,6
+27,Dog,Easy,4
+28,Dolphin,Easy,5
+29,Dwarf donkey,Easy,6
+30,Dwarf Otter,Easy,6
+31,Dwarf penguin,Easy,6
+32,Eagle owl,Easy,7
+33,Electric eel,Easy,6
+34,Elephant,Easy,5
+35,Emperor penguin,Moderate,10
+36,Emu,Easy,6
+37,Ferret,Easy,6
+38,Ferruginous Duck,Moderate,7
+39,Fish,Easy,4
+40,Flamingo,Easy,5
+41,Fox,Easy,5
+42,Frog,Easy,5
+43,Giraffe,Easy,5
+44,Goat,Easy,5
+45,Gorilla,Easy,5
+46,Grey goose,Easy,6
+47,Grey parrot,Easy,6
+48,Grizzly,Easy,6
+49,Guinea Pig,Easy,6
+50,Hedgehog,Easy,6
+51,Hippopotamus,Easy,7
+52,Horse,Easy,5
+53,House donkey,Easy,6
+54,Hyena,Easy,5
+55,Ice fox,Easy,6
+56,Jaguar,Easy,7
+57,Jellyfish,Easy,5
+58,Kangaroo,Easy,5
+59,King python,Easy,6
+60,Koala,Easy,5
+61,Leopard,Easy,5
+62,Lion,Easy,4
+63,Llama,Easy,5
+64,Maine Coon,Moderate,10
+65,Mandrill,Easy,6
+66,Meerkat,Easy,6
+67,Mouse,Easy,5
+68,Musk ox,Easy,6
+69,Orangutan,Moderate,10
+70,Otter,Easy,7
+71,Ox,Easy,5
+72,Panda,Easy,4
+73,Parrot,Easy,5
+74,Penguin,Easy,5
+75,Polar bear,Easy,6
+76,Rabbit,Easy,5
+77,Raccoon,Easy,6
+78,Red fox,Easy,7
+79,Reindeer,Easy,5
+80,Rhino,Easy,7
+81,Rock pigeon,Easy,7
+82,Royal tiger,Easy,6
+83,Seahorse,Easy,6
+84,Seal,Easy,5
+85,Shark,Easy,5
+86,Sheepdog,Easy,7
+87,Snail,Easy,5
+88,Snow leopard,Easy,6
+89,Snowy owl,Easy,9
+90,Spectacled bear,Moderate,9
+91,Spectacled penguin,Moderate,10
+92,Spider,Easy,5
+93,Squirrel,Easy,5
+94,Stone chicken,Easy,7
+95,Sturgeon catfish,Moderate,10
+96,Tank rhinoceros,Moderate,10
+97,Toad,Easy,6
+98,Walrus,Easy,6
+99,Wasp,Easy,5
+100,White rhino,Easy,7
+101,Wild dog,Easy,6
+102,Wolf,Easy,5
+103,Yak,Easy,5
+104,Zebra,Easy,5
+105,Alfa Romeo,Easy,6
+106,BMW Alpina,Easy,6
+107,Aston Martin,Easy,6
+108,Audi,Easy,6
+109,Bentley,Easy,6
+110,BMW,Easy,6
+111,Bugatti,Easy,6
+112,Buick,Moderate,10
+113,Cadillac,Easy,6
+114,Chevrolet,Easy,6
+115,Chrysler,Moderate,10
+116,Citroën,Moderate,10
+117,Corvette,Easy,6
+118,Dacia,Easy,6
+119,Daewoo,Moderate,10
+120,DAF,Moderate,10
+121,Daihatsu,Moderate,10
+122,De Lorean,Moderate,10
+123,De Tomaso,Moderate,10
+124,Dodge,Moderate,10
+125,Ferrari,Easy,6
+126,Fiat,Easy,6
+127,Ford,Easy,6
+128,GAZ,Moderate,10
+129,GMC,Moderate,10
+130,Holden,Moderate,10
+131,Honda,Easy,5
+132,Hummer,Easy,6
+133,Hyundai,Easy,6
+134,Infiniti,Moderate,10
+135,Isuzu,Moderate,10
+136,Iveco,Moderate,10
+137,Jaguar,Easy,6
+138,Jeep,Easy,6
+139,Kia,Easy,5
+140,Königsegg,Moderate,10
+141,Lada,Easy,6
+142,Lamborghini,Easy,5
+143,Lancia,Moderate,10
+144,Land Rover,Easy,6
+145,Lexus,Easy,6
+146,Lincoln,Easy,7
+147,Lotus,Easy,6
+148,Maserati,Easy,6
+149,Maybach,Moderate,10
+150,Mazda,Moderate,10
+151,McLaren,Easy,6
+152,Mercedes-AMG,Easy,6
+153,Mercedes-Benz,Easy,6
+154,MG,Moderate,10
+155,Mini,Easy,6
+156,Mitsubishi,Moderate,10
+157,Morgan,Moderate,10
+158,Moskwitsch,Moderate,10
+159,Nissan,Easy,6
+160,Oldsmobile,Moderate,10
+161,Opel,Moderate,10
+162,Pagani,Moderate,10
+163,Peugeot,Moderate,10
+164,Piaggio,Moderate,10
+165,Plymouth,Moderate,10
+166,Polaris,Moderate,10
+167,Pontiac,Moderate,10
+168,Porsche,Easy,6
+169,Renault,Easy,6
+170,Rolls Royce,Easy,6
+171,Rover,Easy,6
+172,Saab,Moderate,10
+173,Seat,Easy,6
+174,Scania,Moderate,10
+175,Skoda,Easy,6
+176,Smart,Easy,6
+177,Subaru,Moderate,10
+178,Suzuki,Easy,6
+179,Tesla,Easy,6
+180,Toyota,Easy,6
+181,Trabant,Moderate,10
+182,Triumph,Moderate,10
+183,TVR,Moderate,10
+184,UAZ,Moderate,10
+185,Vauxhall,Moderate,10
+186,Volvo,Easy,6
+187,Volkswagen,Moderate,10
+188,Wartburg,Moderate,10
+189,Afghanistan,Moderate,10
+190,Åland Islands,Difficult,13
+191,Albania,Moderate,10
+192,Algeria,Moderate,10
+193,American Samoa,Moderate,10
+194,Andorra,Moderate,10
+195,Angola,Moderate,10
+196,Anguilla,Difficult,13
+197,Antarctica,Moderate,10
+198,Antigua and Barbuda,Difficult,13
+199,Argentina,Moderate,10
+200,Armenia,Moderate,10
+201,Aruba,Moderate,10
+202,Australia,Moderate,10
+203,Austria,Moderate,10
+204,Azerbaijan,Moderate,10
+205,Bahamas,Moderate,10
+206,Bahrain,Moderate,10
+207,Bangladesh,Moderate,10
+208,Barbados,Moderate,10
+209,Belarus,Moderate,10
+210,Belgium,Moderate,10
+211,Belize,Moderate,10
+212,Benin,Moderate,10
+213,Bermuda,Moderate,10
+214,Bhutan,Moderate,10
+215,Bolivia (Plurinational State of),Difficult,13
+216,"Bonaire, Sint Eustatius and Saba",Difficult,13
+217,Bosnia and Herzegovina,Moderate,10
+218,Botswana,Moderate,10
+219,Bouvet Island,Moderate,10
+220,Brazil,Moderate,10
+221,British Indian Ocean Territory,Moderate,10
+222,United States Minor Outlying Islands,Moderate,10
+223,Virgin Islands (British),Moderate,10
+224,Virgin Islands (U.S.),Moderate,10
+225,Brunei Darussalam,Difficult,13
+226,Bulgaria,Moderate,10
+227,Burkina Faso,Difficult,13
+228,Burundi,Difficult,13
+229,Cambodia,Moderate,10
+230,Cameroon,Moderate,10
+231,Canada,Moderate,10
+232,Cabo Verde,Moderate,10
+233,Cayman Islands,Moderate,10
+234,Central African Republic,Moderate,10
+235,Chad,Moderate,10
+236,Chile,Moderate,10
+237,China,Moderate,10
+238,Christmas Island,Moderate,10
+239,Cocos (Keeling) Islands,Moderate,10
+240,Colombia,Moderate,10
+241,Comoros,Moderate,10
+242,Congo,Moderate,10
+243,Congo (Democratic Republic of the),Moderate,10
+244,Cook Islands,Moderate,10
+245,Costa Rica,Moderate,10
+246,Croatia,Moderate,10
+247,Cuba,Moderate,10
+248,Curaçao,Difficult,13
+249,Cyprus,Moderate,10
+250,Czech Republic,Moderate,10
+251,Denmark,Moderate,10
+252,Djibouti,Difficult,13
+253,Dominica,Moderate,10
+254,Dominican Republic,Moderate,10
+255,Ecuador,Moderate,10
+256,Egypt,Moderate,10
+257,El Salvador,Moderate,10
+258,Equatorial Guinea,Moderate,10
+259,Eritrea,Difficult,13
+260,Estonia,Moderate,10
+261,Ethiopia,Moderate,10
+262,Falkland Islands (Malvinas),Difficult,13
+263,Faroe Islands,Moderate,10
+264,Fiji,Moderate,10
+265,Finland,Moderate,10
+266,France,Moderate,10
+267,French Guiana,Moderate,10
+268,French Polynesia,Moderate,10
+269,French Southern Territories,Difficult,13
+270,Gabon,Difficult,13
+271,Gambia,Moderate,10
+272,Georgia,Moderate,10
+273,Germany,Moderate,10
+274,Ghana,Moderate,10
+275,Gibraltar,Difficult,13
+276,Greece,Moderate,10
+277,Greenland,Moderate,10
+278,Grenada,Moderate,10
+279,Guadeloupe,Difficult,13
+280,Guam,Difficult,13
+281,Guatemala,Difficult,13
+282,Guernsey,Difficult,13
+283,Guinea,Moderate,10
+284,Guinea-Bissau,Difficult,13
+285,Guyana,Difficult,13
+286,Haiti,Moderate,10
+287,Heard Island and McDonald Islands,Difficult,13
+288,Holy See,Moderate,10
+289,Honduras,Difficult,13
+290,Hong Kong,Moderate,10
+291,Hungary,Moderate,10
+292,Iceland,Moderate,10
+293,India,Moderate,10
+294,Indonesia,Moderate,10
+295,Côte d'Ivoire,Difficult,13
+296,Iran (Islamic Republic of),Moderate,10
+297,Iraq,Moderate,10
+298,Ireland,Moderate,10
+299,Isle of Man,Difficult,13
+300,Israel,Moderate,10
+301,Italy,Moderate,10
+302,Jamaica,Moderate,10
+303,Japan,Moderate,10
+304,Jersey,Moderate,10
+305,Jordan,Moderate,10
+306,Kazakhstan,Moderate,10
+307,Kenya,Moderate,10
+308,Kiribati,Difficult,13
+309,Kuwait,Moderate,10
+310,Kyrgyzstan,Moderate,10
+311,Lao People's Democratic Republic,Difficult,13
+312,Latvia,Moderate,10
+313,Lebanon,Moderate,10
+314,Lesotho,Difficult,13
+315,Liberia,Moderate,10
+316,Libya,Moderate,10
+317,Liechtenstein,Difficult,13
+318,Lithuania,Moderate,10
+319,Luxembourg,Moderate,10
+320,Macao,Moderate,10
+321,Macedonia (the former Yugoslav Republic of),Difficult,13
+322,Madagascar,Moderate,10
+323,Malawi,Moderate,10
+324,Malaysia,Moderate,10
+325,Maldives,Moderate,10
+326,Mali,Moderate,10
+327,Malta,Moderate,10
+328,Marshall Islands,Moderate,10
+329,Martinique,Difficult,13
+330,Mauritania,Difficult,13
+331,Mauritius,Difficult,13
+332,Mayotte,Difficult,13
+333,Mexico,Moderate,10
+334,Micronesia (Federated States of),Difficult,13
+335,Moldova (Republic of),Difficult,13
+336,Monaco,Moderate,10
+337,Mongolia,Moderate,10
+338,Montenegro,Moderate,10
+339,Montserrat,Moderate,10
+340,Morocco,Moderate,10
+341,Mozambique,Difficult,13
+342,Myanmar,Moderate,10
+343,Namibia,Difficult,13
+344,Nauru,Difficult,13
+345,Nepal,Moderate,10
+346,Netherlands,Difficult,13
+347,New Caledonia,Moderate,10
+348,New Zealand,Moderate,10
+349,Nicaragua,Difficult,13
+350,Niger,Moderate,10
+351,Nigeria,Moderate,10
+352,Niue,Difficult,13
+353,Norfolk Island,Moderate,10
+354,Korea (Democratic People's Republic of),Moderate,10
+355,Northern Mariana Islands,Difficult,13
+356,Norway,Moderate,10
+357,Oman,Moderate,10
+358,Pakistan,Moderate,10
+359,Palau,Moderate,10
+360,"Palestine, State of",Moderate,10
+361,Panama,Moderate,10
+362,Papua New Guinea,Difficult,13
+363,Paraguay,Moderate,10
+364,Peru,Moderate,10
+365,Philippines,Moderate,10
+366,Pitcairn,Difficult,13
+367,Poland,Moderate,10
+368,Portugal,Moderate,10
+369,Puerto Rico,Moderate,10
+370,Qatar,Moderate,10
+371,Republic of Kosovo,Moderate,10
+372,Réunion,Moderate,10
+373,Romania,Moderate,10
+374,Russian Federation,Moderate,10
+375,Rwanda,Difficult,13
+376,Saint Barthélemy,Difficult,13
+377,"Saint Helena, Ascension and Tristan da Cunha",Difficult,13
+378,Saint Kitts and Nevis,Difficult,13
+379,Saint Lucia,Moderate,10
+380,Saint Martin (French part),Moderate,10
+381,Saint Pierre and Miquelon,Difficult,13
+382,Saint Vincent and the Grenadines,Difficult,13
+383,Samoa,Difficult,13
+384,San Marino,Difficult,13
+385,Sao Tome and Principe,Difficult,13
+386,Saudi Arabia,Moderate,10
+387,Senegal,Moderate,10
+388,Serbia,Moderate,10
+389,Seychelles,Difficult,13
+390,Sierra Leone,Difficult,13
+391,Singapore,Moderate,10
+392,Sint Maarten (Dutch part),Difficult,13
+393,Slovakia,Moderate,10
+394,Slovenia,Moderate,10
+395,Solomon Islands,Difficult,13
+396,Somalia,Moderate,10
+397,South Africa,Moderate,10
+398,South Georgia and the South Sandwich Islands,Moderate,10
+399,Korea (Republic of),Moderate,10
+400,South Sudan,Moderate,10
+401,Spain,Moderate,10
+402,Sri Lanka,Moderate,10
+403,Sudan,Moderate,10
+404,Suriname,Difficult,13
+405,Svalbard and Jan Mayen,Difficult,13
+406,Swaziland,Difficult,13
+407,Sweden,Moderate,10
+408,Switzerland,Moderate,10
+409,Syrian Arab Republic,Moderate,10
+410,Taiwan,Moderate,10
+411,Tajikistan,Moderate,10
+412,"Tanzania, United Republic of",Moderate,10
+413,Thailand,Moderate,10
+414,Timor-Leste,Difficult,13
+415,Togo,Difficult,13
+416,Tokelau,Difficult,13
+417,Tonga,Difficult,13
+418,Trinidad and Tobago,Difficult,13
+419,Tunisia,Moderate,10
+420,Turkey,Moderate,10
+421,Turkmenistan,Difficult,13
+422,Turks and Caicos Islands,Difficult,13
+423,Tuvalu,Difficult,13
+424,Uganda,Moderate,10
+425,Ukraine,Moderate,10
+426,United Arab Emirates,Moderate,10
+427,United Kingdom of Great Britain and Northern Ireland,Moderate,10
+428,United States of America,Moderate,10
+429,Uruguay,Moderate,10
+430,Uzbekistan,Moderate,10
+431,Vanuatu,Difficult,13
+432,Venezuela (Bolivarian Republic of),Difficult,13
+433,Viet Nam,Moderate,10
+434,Wallis and Futuna,Difficult,13
+435,Western Sahara,Moderate,10
+436,Yemen,Moderate,10
+437,Zambia,Moderate,10
+438,Zimbabwe,Moderate,10
+439,Kabul (Afghanistan),Easy,6
+440,Mariehamn (Åland Islands),Easy,6
+441,Tirana (Albania),Easy,6
+442,Algiers (Algeria),Easy,6
+443,Pago Pago (American Samoa),Easy,6
+444,Andorra la Vella (Andorra),Easy,6
+445,Luanda (Angola),Easy,6
+446,The Valley (Anguilla),Easy,6
+447,Saint John's (Antigua and Barbuda),Easy,6
+448,Buenos Aires (Argentina),Easy,6
+449,Yerevan (Armenia),Easy,6
+450,Oranjestad (Aruba),Easy,6
+451,Canberra (Australia),Easy,6
+452,Vienna (Austria),Easy,6
+453,Baku (Azerbaijan),Easy,6
+454,Nassau (Bahamas),Easy,6
+455,Manama (Bahrain),Easy,6
+456,Dhaka (Bangladesh),Easy,6
+457,Bridgetown (Barbados),Easy,6
+458,Minsk (Belarus),Easy,6
+459,Brussels (Belgium),Easy,6
+460,Belmopan (Belize),Difficult,13
+461,Porto-Novo (Benin),Difficult,13
+462,Hamilton (Bermuda),Difficult,13
+463,Thimphu (Bhutan),Difficult,13
+464,Sucre (Bolivia (Plurinational State of)),Difficult,13
+465,"Kralendijk (Bonaire, Sint Eustatius and Saba)",Difficult,13
+466,Sarajevo (Bosnia and Herzegovina),Difficult,13
+467,Gaborone (Botswana),Difficult,13
+468,Brasília (Brazil),Difficult,13
+469,Diego Garcia (British Indian Ocean Territory),Difficult,13
+470,Road Town (Virgin Islands (British)),Difficult,13
+471,Charlotte Amalie (Virgin Islands (U.S.)),Difficult,13
+472,Bandar Seri Begawan (Brunei Darussalam),Difficult,13
+473,Sofia (Bulgaria),Difficult,13
+474,Ouagadougou (Burkina Faso),Difficult,13
+475,Bujumbura (Burundi),Difficult,13
+476,Phnom Penh (Cambodia),Difficult,13
+477,Yaoundé (Cameroon),Difficult,13
+478,Ottawa (Canada),Moderate,10
+479,Praia (Cabo Verde),Difficult,13
+480,George Town (Cayman Islands),Difficult,13
+481,Bangui (Central African Republic),Difficult,13
+482,N'Djamena (Chad),Difficult,13
+483,Santiago (Chile),Difficult,13
+484,Beijing (China),Moderate,10
+485,Flying Fish Cove (Christmas Island),Difficult,13
+486,West Island (Cocos (Keeling) Islands),Difficult,13
+487,Bogotá (Colombia),Difficult,13
+488,Moroni (Comoros),Difficult,13
+489,Brazzaville (Congo),Difficult,13
+490,Kinshasa (Congo (Democratic Republic of the)),Difficult,13
+491,Avarua (Cook Islands),Difficult,13
+492,San José (Costa Rica),Difficult,13
+493,Zagreb (Croatia),Difficult,13
+494,Havana (Cuba),Difficult,13
+495,Willemstad (Curaçao),Difficult,13
+496,Nicosia (Cyprus),Difficult,13
+497,Prague (Czech Republic),Difficult,13
+498,Copenhagen (Denmark),Difficult,13
+499,Djibouti (Djibouti),Difficult,13
+500,Roseau (Dominica),Difficult,13
+501,Santo Domingo (Dominican Republic),Difficult,13
+502,Quito (Ecuador),Difficult,13
+503,Cairo (Egypt),Difficult,13
+504,San Salvador (El Salvador),Difficult,13
+505,Malabo (Equatorial Guinea),Difficult,13
+506,Asmara (Eritrea),Difficult,13
+507,Tallinn (Estonia),Difficult,13
+508,Addis Ababa (Ethiopia),Difficult,13
+509,Stanley (Falkland Islands (Malvinas)),Difficult,13
+510,Tórshavn (Faroe Islands),Difficult,13
+511,Suva (Fiji),Difficult,13
+512,Helsinki (Finland),Difficult,13
+513,Paris (France),Easy,6
+514,Cayenne (French Guiana),Difficult,13
+515,Papeetē (French Polynesia),Difficult,13
+516,Port-aux-Français (French Southern Territories),Challenging,17
+517,Libreville (Gabon),Difficult,13
+518,Banjul (Gambia),Difficult,13
+519,Tbilisi (Georgia),Challenging,17
+520,Berlin (Germany),Moderate,10
+521,Accra (Ghana),Difficult,13
+522,Gibraltar (Gibraltar),Difficult,13
+523,Athens (Greece),Moderate,10
+524,Nuuk (Greenland),Difficult,13
+525,St. George's (Grenada),Difficult,13
+526,Basse-Terre (Guadeloupe),Difficult,13
+527,Hagåtña (Guam),Difficult,13
+528,Guatemala City (Guatemala),Difficult,13
+529,St. Peter Port (Guernsey),Difficult,13
+530,Conakry (Guinea),Difficult,13
+531,Bissau (Guinea-Bissau),Difficult,13
+532,Georgetown (Guyana),Difficult,13
+533,Port-au-Prince (Haiti),Difficult,13
+534,Rome (Holy See),Moderate,10
+535,Tegucigalpa (Honduras),Challenging,17
+536,City of Victoria (Hong Kong),Difficult,13
+537,Budapest (Hungary),Difficult,13
+538,Reykjavík (Iceland),Difficult,13
+539,New Delhi (India),Moderate,10
+540,Jakarta (Indonesia),Moderate,10
+541,Yamoussoukro (Côte d'Ivoire),Challenging,17
+542,Tehran (Iran (Islamic Republic of)),Moderate,10
+543,Baghdad (Iraq),Moderate,10
+544,Dublin (Ireland),Difficult,13
+545,Douglas (Isle of Man),Difficult,13
+546,Jerusalem (Israel),Difficult,13
+547,Rome (Italy),Moderate,10
+548,Kingston (Jamaica),Difficult,13
+549,Tokyo (Japan),Moderate,10
+550,Saint Helier (Jersey),Difficult,13
+551,Amman (Jordan),Difficult,13
+552,Astana (Kazakhstan),Difficult,13
+553,Nairobi (Kenya),Moderate,10
+554,South Tarawa (Kiribati),Difficult,13
+555,Kuwait City (Kuwait),Moderate,10
+556,Bishkek (Kyrgyzstan),Difficult,13
+557,Vientiane (Lao People's Democratic Republic),Difficult,13
+558,Riga (Latvia),Difficult,13
+559,Beirut (Lebanon),Difficult,13
+560,Maseru (Lesotho),Difficult,13
+561,Monrovia (Liberia),Difficult,13
+562,Tripoli (Libya),Difficult,13
+563,Vaduz (Liechtenstein),Difficult,13
+564,Vilnius (Lithuania),Difficult,13
+565,Luxembourg (Luxembourg),Difficult,13
+566,Skopje (Macedonia (the former Yugoslav Republic of)),Difficult,13
+567,Antananarivo (Madagascar),Difficult,13
+568,Lilongwe (Malawi),Difficult,13
+569,Kuala Lumpur (Malaysia),Difficult,13
+570,Malé (Maldives),Difficult,13
+571,Bamako (Mali),Difficult,13
+572,Valletta (Malta),Difficult,13
+573,Majuro (Marshall Islands),Difficult,13
+574,Fort-de-France (Martinique),Difficult,13
+575,Nouakchott (Mauritania),Difficult,13
+576,Port Louis (Mauritius),Difficult,13
+577,Mamoudzou (Mayotte),Difficult,13
+578,Mexico City (Mexico),Moderate,10
+579,Palikir (Micronesia (Federated States of)),Difficult,13
+580,Chișinău (Moldova (Republic of)),Difficult,13
+581,Monaco (Monaco),Difficult,13
+582,Ulan Bator (Mongolia),Difficult,13
+583,Podgorica (Montenegro),Difficult,13
+584,Plymouth (Montserrat),Challenging,17
+585,Rabat (Morocco),Difficult,13
+586,Maputo (Mozambique),Difficult,13
+587,Naypyidaw (Myanmar),Difficult,13
+588,Windhoek (Namibia),Difficult,13
+589,Yaren (Nauru),Difficult,13
+590,Kathmandu (Nepal),Moderate,10
+591,Amsterdam (Netherlands),Moderate,10
+592,Nouméa (New Caledonia),Difficult,13
+593,Wellington (New Zealand),Difficult,13
+594,Managua (Nicaragua),Difficult,13
+595,Niamey (Niger),Difficult,13
+596,Abuja (Nigeria),Difficult,13
+597,Alofi (Niue),Difficult,13
+598,Kingston (Norfolk Island),Difficult,13
+599,Pyongyang (Korea (Democratic People's Republic of)),Difficult,13
+600,Saipan (Northern Mariana Islands),Difficult,13
+601,Oslo (Norway),Difficult,13
+602,Muscat (Oman),Moderate,10
+603,Islamabad (Pakistan),Moderate,10
+604,Ngerulmud (Palau),Difficult,13
+605,"Ramallah (Palestine, State of)",Difficult,13
+606,Panama City (Panama),Difficult,13
+607,Port Moresby (Papua New Guinea),Difficult,13
+608,Asunción (Paraguay),Difficult,13
+609,Lima (Peru),Difficult,13
+610,Manila (Philippines),Difficult,13
+611,Adamstown (Pitcairn),Difficult,13
+612,Warsaw (Poland),Difficult,13
+613,Lisbon (Portugal),Difficult,13
+614,San Juan (Puerto Rico),Difficult,13
+615,Doha (Qatar),Moderate,10
+616,Pristina (Republic of Kosovo),Difficult,13
+617,Saint-Denis (Réunion),Difficult,13
+618,Bucharest (Romania),Difficult,13
+619,Moscow (Russian Federation),Moderate,10
+620,Kigali (Rwanda),Difficult,13
+621,Gustavia (Saint Barthélemy),Difficult,13
+622,"Jamestown (Saint Helena, Ascension and Tristan da Cunha)",Difficult,13
+623,Basseterre (Saint Kitts and Nevis),Difficult,13
+624,Castries (Saint Lucia),Difficult,13
+625,Marigot (Saint Martin (French part)),Difficult,13
+626,Saint-Pierre (Saint Pierre and Miquelon),Difficult,13
+627,Kingstown (Saint Vincent and the Grenadines),Difficult,13
+628,Apia (Samoa),Difficult,13
+629,City of San Marino (San Marino),Difficult,13
+630,São Tomé (Sao Tome and Principe),Difficult,13
+631,Riyadh (Saudi Arabia),Moderate,10
+632,Dakar (Senegal),Difficult,13
+633,Belgrade (Serbia),Difficult,13
+634,Victoria (Seychelles),Moderate,10
+635,Freetown (Sierra Leone),Difficult,13
+636,Singapore (Singapore),Moderate,10
+637,Philipsburg (Sint Maarten (Dutch part)),Difficult,13
+638,Bratislava (Slovakia),Difficult,13
+639,Ljubljana (Slovenia),Difficult,13
+640,Honiara (Solomon Islands),Difficult,13
+641,Mogadishu (Somalia),Difficult,13
+642,Pretoria (South Africa),Difficult,13
+643,King Edward Point (South Georgia and the South Sandwich Islands),Difficult,13
+644,Seoul (Korea (Republic of)),Difficult,13
+645,Juba (South Sudan),Difficult,13
+646,Madrid (Spain),Moderate,10
+647,Colombo (Sri Lanka),Moderate,10
+648,Khartoum (Sudan),Difficult,13
+649,Paramaribo (Suriname),Difficult,13
+650,Longyearbyen (Svalbard and Jan Mayen),Difficult,13
+651,Lobamba (Swaziland),Difficult,13
+652,Stockholm (Sweden),Difficult,13
+653,Bern (Switzerland),Difficult,13
+654,Damascus (Syrian Arab Republic),Difficult,13
+655,Taipei (Taiwan),Difficult,13
+656,Dushanbe (Tajikistan),Difficult,13
+657,"Dodoma (Tanzania, United Republic of)",Difficult,13
+658,Bangkok (Thailand),Easy,6
+659,Dili (Timor-Leste),Difficult,13
+660,Lomé (Togo),Difficult,13
+661,Fakaofo (Tokelau),Difficult,13
+662,Nuku'alofa (Tonga),Difficult,13
+663,Port of Spain (Trinidad and Tobago),Difficult,13
+664,Tunis (Tunisia),Difficult,13
+665,Ankara (Turkey),Difficult,13
+666,Ashgabat (Turkmenistan),Difficult,13
+667,Cockburn Town (Turks and Caicos Islands),Difficult,13
+668,Funafuti (Tuvalu),Difficult,13
+669,Kampala (Uganda),Difficult,13
+670,Kiev (Ukraine),Difficult,13
+671,Abu Dhabi (United Arab Emirates),Easy,6
+672,London (United Kingdom of Great Britain and Northern Ireland),Easy,6
+673,"Washington, D.C. (United States of America)",Easy,6
+674,Montevideo (Uruguay),Difficult,13
+675,Tashkent (Uzbekistan),Difficult,13
+676,Port Vila (Vanuatu),Difficult,13
+677,Caracas (Venezuela (Bolivarian Republic of)),Difficult,13
+678,Hanoi (Viet Nam),Difficult,13
+679,Mata-Utu (Wallis and Futuna),Difficult,13
+680,El Aaiún (Western Sahara),Difficult,13
+681,Sana'a (Yemen),Difficult,13
+682,Lusaka (Zambia),Difficult,13
+683,Harare (Zimbabwe),Difficult,13
+684,Applesauce,Easy,6
+685,Beef patty,Easy,6
+686,Beef steak,Easy,6
+687,Beer ham,Easy,6
+688,Beer,Easy,6
+689,Big Mac,Easy,6
+690,Bratwurst,Moderate,10
+691,Brown bread,Easy,6
+692,Budweiser (beer),Moderate,10
+693,Burger King,Easy,6
+694,Butter,Easy,6
+695,Camembert,Moderate,10
+696,Carlsberg (beer),Easy,6
+697,Chicken breast fillet,Easy,6
+698,Chocolate,Easy,6
+699,Ciabatta,Moderate,10
+700,Cocktail sauce,Easy,6
+701,Cola,Easy,6
+702,Cornflakes,Easy,6
+703,Corona (beer),Easy,6
+704,Cream cake,Easy,6
+705,Cream cheese,Easy,6
+706,Cream pudding,Easy,6
+707,Cream,Easy,6
+708,Crispbread,Easy,6
+709,Croissant,Easy,6
+710,Croquettes,Moderate,10
+711,Currywurst,Easy,6
+712,Donut,Easy,6
+713,Dried fruit,Easy,6
+714,Duck,Very Easy,4
+715,Dunkin Donuts,Very Easy,4
+716,Eggs,Easy,6
+717,Falafel,Easy,6
+718,Fish sticks,Easy,6
+719,French Fries,Easy,6
+720,Fried potatoes,Easy,6
+721,Frikadelle,Moderate,10
+722,Frozen pizza,Easy,6
+723,Frozen vegetables,Easy,6
+724,Fruit juice,Easy,6
+725,Fruit,Easy,6
+726,Fruitcake,Easy,6
+727,Goose,Easy,6
+728,Gouda,Moderate,10
+729,Green salad,Easy,6
+730,Ground beef,Easy,6
+731,Half-fat butter,Easy,6
+732,Ham and cheese croissant,Moderate,10
+733,Hamburger,Easy,6
+734,Heineken (beer),Moderate,10
+735,Herb curd,Easy,6
+736,Herring fillet,Moderate,10
+737,Hollandaise sauce,Moderate,10
+738,Honey,Very Easy,4
+739,Hot dog,Easy,6
+740,Ice cream,Easy,6
+741,Jack Daniels (whisky),Easy,6
+742,Jello,Easy,6
+743,Johnnie Walker (whisky),Easy,6
+744,KFC,Easy,6
+745,Lemonade,Easy,6
+746,Licorice,Moderate,10
+747,Liqueur,Easy,6
+748,Liver sausage,Moderate,10
+749,Mackerel,Moderate,10
+750,Margarine,Easy,6
+751,Marmalade,Moderate,10
+752,Marzipan,Moderate,10
+753,Mascarpone,Moderate,10
+754,Mayonnaise,Very Easy,4
+755,McDonalds,Easy,6
+756,Milk,Very Easy,4
+757,Minced meat,Easy,6
+758,Mousse,Easy,6
+759,Mozzarella,Easy,6
+760,Muesli,Easy,6
+761,Non-alcoholic beer,Moderate,10
+762,Nut nougat cream,Moderate,10
+763,Nutella,Easy,6
+764,Nuts,Easy,6
+765,Olives,Very Easy,4
+766,Oranges,Very Easy,4
+767,Pancakes,Easy,6
+768,Pasta,Easy,6
+769,Pesto,Easy,6
+770,Pizza Hut,Easy,6
+771,Pollock,Moderate,10
+772,Popcorn,Very Easy,4
+773,Pork chop,Easy,6
+774,Pork cutlet,Easy,6
+775,Potato chips,Very Easy,4
+776,Potato dumpling dough,Moderate,10
+777,Potato salad,Easy,6
+778,Potatoes,Very Easy,4
+779,Pudding,Easy,6
+780,Puff pastry,Easy,6
+781,Rice crackers,Easy,6
+782,Rice,Very Easy,4
+783,Roast Chicken,Easy,6
+784,Rollmops,Easy,6
+785,Rolls,Easy,6
+786,Salad dressing,Easy,6
+787,Salami,Easy,6
+788,Salmon,Easy,6
+789,Saltines,Easy,6
+790,Semolina pudding,Moderate,10
+791,Shrimp,Easy,6
+792,Soup,Easy,6
+793,Sour cream,Easy,6
+794,Sparkling wine,Easy,6
+795,Speisequark,Moderate,10
+796,Sponge cake,Easy,6
+797,Spätzle,Easy,6
+798,Starbucks,Easy,6
+799,Steak,Easy,6
+800,Subway,Easy,6
+801,Sunflower oil,Easy,6
+802,Sushi,Easy,6
+803,Tiramisu,Moderate,10
+804,Toast Hawaii,Moderate,10
+805,Toast,Easy,6
+806,Tomato sauce,Easy,6
+807,Trout,Moderate,10
+808,Vegetables,Very Easy,4
+809,Whiskey,Easy,6
+810,White bread,Easy,6
+811,Wiener,Moderate,10
+812,Wine,Easy,6
+813,Yogurt,Easy,6
+814,1984,Difficult,13
+815,A Doll's House,Difficult,13
+816,"Absalom, Absalom!",Difficult,13
+817,Anna Karenina,Difficult,13
+818,"Beloved (Beloved Trilogy, #1)",Difficult,13
+819,Berlin Alexanderplatz,Challenging,17
+820,Blindness,Moderate,10
+821,Buddenbrooks: The Decline of a Family,Difficult,13
+822,Crime and Punishment,Moderate,10
+823,Dead Souls,Moderate,10
+824,Demons,Moderate,10
+825,Diary of a Madman and Other Stories,Difficult,13
+826,Don Quixote,Challenging,17
+827,"Faust, First Part",Difficult,13
+828,Ficciones,Difficult,13
+829,Gargantua and Pantagruel,Challenging,17
+830,Grande Sertão: Veredas,Difficult,13
+831,Great Expectations,Difficult,13
+832,Gulliver's Travels,Moderate,10
+833,Hamlet,Moderate,10
+834,"History (La Storia, #1-2)",Difficult,13
+835,Hunger,Easy,6
+836,Independent People,Difficult,13
+837,Invisible Man,Moderate,10
+838,Jacques the Fatalist,Challenging,17
+839,Journey to the End of the Night,Difficult,13
+840,King Lear,Difficult,13
+841,Leaves of Grass,Difficult,13
+842,Lolita,Difficult,13
+843,Love in the Time of Cholera,Difficult,13
+844,Madame Bovary,Difficult,13
+845,Mahabharata,Moderate,10
+846,Medea,Difficult,13
+847,Memoirs of Hadrian,Difficult,13
+848,Metamorphoses,Difficult,13
+849,Middlemarch,Difficult,13
+850,Midnight's Children,Difficult,13
+851,"Moby-Dick or, the Whale",Challenging,17
+852,"Molloy, Malone Dies, The Unnamable",Difficult,13
+853,Mrs. Dalloway,Difficult,13
+854,Njal's Saga,Difficult,13
+855,Nostromo,Difficult,13
+856,"Oedipus Rex  (The Theban Plays, #1)",Challenging,17
+857,One Hundred Years of Solitude,Difficult,13
+858,Othello,Difficult,13
+859,Pedro Páramo,Difficult,13
+860,Pippi Longstocking,Difficult,13
+861,Poems of Paul Celan,Difficult,13
+862,Pride and Prejudice,Moderate,10
+863,Père Goriot,Difficult,13
+864,Ramayana,Moderate,10
+865,Romancero gitano,Challenging,17
+866,Season of Migration to the North,Difficult,13
+867,Selected Stories of Anton Chekhov,Difficult,13
+868,Sentimental Education,Difficult,13
+869,Sons and Lovers,Difficult,13
+870,Swann's Way,Difficult,13
+871,The Adventures of Huckleberry Finn,Difficult,13
+872,The Aeneid,Difficult,13
+873,The Arabian Nights,Moderate,10
+874,The Book of Disquiet,Difficult,13
+875,The Book of Job,Difficult,13
+876,The Brothers Karamazov,Difficult,13
+877,The Canterbury Tales,Difficult,13
+878,The Castle,Difficult,13
+879,The Collected Tales of Edgar Allan Poe,Difficult,13
+880,The Complete Essays,Difficult,13
+881,The Complete Fairy Tales,Difficult,13
+882,The Complete Stories,Difficult,13
+883,The Death of Ivan Ilych,Difficult,13
+884,The Decameron,Difficult,13
+885,The Divine Comedy,Difficult,13
+886,The Epic of Gilgamesh,Difficult,13
+887,The Golden Notebook,Difficult,13
+888,The Idiot,Difficult,13
+889,The Iliad,Difficult,13
+890,"The Life and Opinions of Tristram Shandy, Gentleman",Difficult,13
+891,The Magic Mountain,Difficult,13
+892,The Man Without Qualities,Difficult,13
+893,The Odyssey,Difficult,13
+894,The Old Man and the Sea,Difficult,13
+895,The Orchard: The Bostan Of Saadi Of Shiraz,Difficult,13
+896,The Poems Of Leopardi,Difficult,13
+897,The Recognition of Śakuntalā,Difficult,13
+898,The Red and the Black,Difficult,13
+899,The Sound and the Fury,Difficult,13
+900,The Sound of the Mountain,Difficult,13
+901,The Stranger,Moderate,10
+902,The Tale of Genji,Difficult,13
+903,The Tin Drum,Difficult,13
+904,The Trial,Difficult,13
+905,"Things Fall Apart (The African Trilogy, #1)",Difficult,13
+906,To the Lighthouse,Difficult,13
+907,Ulysses,Difficult,13
+908,War and Peace,Difficult,13
+909,Wuthering Heights,Difficult,13
+910,Zeno's Conscience,Difficult,13
+911,Zorba the Greek,Difficult,13
+912,50 Cent,Moderate,10
+913,Abigail Breslin,Difficult,13
+914,Abraham Lincoln,Easy,6
+915,Adam Sandler,Easy,6
+916,Adolf Hitler,Easy,6
+917,Al Capone,Difficult,13
+918,Al Pacino,Difficult,13
+919,Alan Rickman,Easy,6
+920,Albert Einstein,Easy,6
+921,Alec Baldwin,Easy,6
+922,Alexander Graham Bell,Easy,6
+923,Alfred Hitchcock,Difficult,13
+924,Alison Brie,Difficult,13
+925,Amanda Seyfried,Difficult,13
+926,Amy Adams,Difficult,13
+927,Andie MacDowell,Difficult,13
+928,Andy Warhol,Difficult,13
+929,Angela Merkel,Difficult,13
+930,Anne Hathaway,Moderate,10
+931,Anthony Hopkins,Difficult,13
+932,Anthony Quinn,Difficult,13
+933,Arnold Schwarzenegger,Challenging,17
+934,Audrey Hepburn,Difficult,13
+935,Barbara Streisand,Difficult,13
+936,Ben Kingsley,Difficult,13
+937,Ben Stiller,Difficult,13
+938,Benedict Cumberbatch,Difficult,13
+939,Benicio Del Toro,Difficult,13
+940,Benjamin Franklin,Moderate,10
+941,Bill Gates,Easy,6
+942,Bill Murray,Difficult,13
+943,Blake Lively,Moderate,10
+944,Bob Dylan,Moderate,10
+945,Bob Marley,Moderate,10
+946,Bono,Difficult,13
+947,Brad Pitt,Moderate,10
+948,Bradley Cooper,Moderate,10
+949,Bruce Lee,Moderate,10
+950,Buzz Aldrin,Difficult,13
+951,Catherine Zeta-Jones,Difficult,13
+952,Channing Tatum,Difficult,13
+953,Charles Darwin,Moderate,10
+954,Charles De Gaulle,Difficult,13
+955,Charles Dickens,Moderate,10
+956,Charlie Chaplin,Easy,6
+957,Charlie Sheen,Difficult,13
+958,Ernesto Che Guevara,Difficult,13
+959,Chris Evans,Moderate,10
+960,Chris Hemsworth,Moderate,10
+961,Chris Pratt,Difficult,13
+962,Christian Bale,Difficult,13
+963,Christoph Waltz,Difficult,13
+964,Christopher Columbus,Difficult,13
+965,Christopher Nolan,Difficult,13
+966,Christopher Walken,Difficult,13
+967,Chuck Norris,Difficult,13
+968,Clint Eastwood,Difficult,13
+969,Colin Firth,Difficult,13
+970,Dame Elizabeth Taylor,Difficult,13
+971,Daniel Day-Lewis,Difficult,13
+972,Daniel Radcliffe,Moderate,10
+973,Danny DeVito,Difficult,13
+974,David Hasselhoff,Difficult,13
+975,Demi Moore,Difficult,13
+976,Denzel Washington,Difficult,13
+977,Diane Keaton,Difficult,13
+978,Diane Kruger,Difficult,13
+979,Dr. Stephen Hawking,Moderate,10
+980,Dustin Hoffman,Difficult,13
+981,Dwayne 'The Rock' Johnson,Moderate,10
+982,Eddie Murphy,Difficult,13
+983,Edgar Allan Poe,Difficult,13
+984,Edward Norton,Difficult,13
+985,Ellen Page,Difficult,13
+986,Elvis Presley,Difficult,13
+987,Elyas M'Barek,Difficult,13
+988,Eminem,Moderate,10
+989,Emma Stone,Difficult,13
+990,Emma Watson,Moderate,10
+991,Ernest Hemingway,Difficult,13
+992,Federico Fellini,Difficult,13
+993,Felicity Jones,Difficult,13
+994,Fidel Castro,Difficult,13
+995,Frank Sinatra,Difficult,13
+996,Freddie Mercury,Difficult,13
+997,Galileo Galilei,Difficult,13
+998,Geena Davis,Difficult,13
+999,Gene Hackman,Difficult,13
+1000,Gene Kelly,Difficult,13
+1001,General Dwight D. Eisenhower,Difficult,13
+1002,Geoffrey Rush,Difficult,13
+1003,George Clooney,Difficult,13
+1004,George Washington,Difficult,13
+1005,Gerard Depardieu,Difficult,13
+1006,Glenn Close,Difficult,13
+1007,Grigorij Rasputin,Difficult,13
+1008,Harrison Ford,Difficult,13
+1009,Harry Houdini,Difficult,13
+1010,Hayley Atwell,Difficult,13
+1011,Heath Ledger,Difficult,13
+1012,Helen Mirren,Difficult,13
+1013,Hugh Grant,Difficult,13
+1014,Hugh Jackman,Moderate,10
+1015,Humphrey Bogart,Difficult,13
+1016,Ian McKellen,Moderate,10
+1017,Jack Nicholson,Difficult,13
+1018,Jackie Chan,Moderate,10
+1019,Jake Gyllenhaal,Difficult,13
+1020,James Dean,Difficult,13
+1021,Jamie Lee Curtis,Difficult,13
+1022,Janis Joplin,Difficult,13
+1023,Jared Leto,Difficult,13
+1024,Jean Reno,Difficult,13
+1025,Jeff Bridges,Difficult,13
+1026,Jennifer Aniston,Moderate,10
+1027,Jennifer Lawrence,Moderate,10
+1028,Jim Carrey,Difficult,13
+1029,Jim Morrison,Difficult,13
+1030,Jimi Hendrix,Difficult,13
+1031,Joaquin Phoenix,Difficult,13
+1032,Jodie Foster,Difficult,13
+1033,John F. Kennedy,Difficult,13
+1034,John Goodman,Difficult,13
+1035,John Lennon,Difficult,13
+1036,John Wayne,Difficult,13
+1037,Johnny Depp,Moderate,10
+1038,Josef Stalin,Difficult,13
+1039,Joseph Gordon-Levitt,Difficult,13
+1040,Julianne Moore,Difficult,13
+1041,Justin Bieber,Moderate,10
+1042,Karl Lagerfeld,Difficult,13
+1043,Kat Dennings,Difficult,13
+1044,Kate Beckinsale,Difficult,13
+1045,Kate Winslet,Difficult,13
+1046,Keira Knightley,Difficult,13
+1047,Kevin James,Difficult,13
+1048,Kevin Spacey,Difficult,13
+1049,Kiefer Sutherland,Difficult,13
+1050,Kristen Stewart,Difficult,13
+1051,Kurt Cobain,Difficult,13
+1052,Lance Armstrong,Difficult,13
+1053,Leonardo Da Vinci,Moderate,10
+1054,Leonardo DiCaprio,Moderate,10
+1055,Liam Neeson,Difficult,13
+1056,Louis Armstrong,Difficult,13
+1057,Ludwig van Beethoven,Difficult,13
+1058,Maggie Smith,Moderate,10
+1059,Mahatma Gandhi,Moderate,10
+1060,Malcolm X,Difficult,13
+1061,Margot Robbie,Moderate,10
+1062,Marie Antoinette,Difficult,13
+1063,Marie Curie,Difficult,13
+1064,Marilyn Monroe,Moderate,10
+1065,Mark Twain,Difficult,13
+1066,Mark Wahlberg,Difficult,13
+1067,Marlene Dietrich,Difficult,13
+1068,Marlon Brando,Difficult,13
+1069,Martin Lawrence,Difficult,13
+1070,Martin Luther King,Moderate,10
+1071,Matt Damon,Difficult,13
+1072,Matthew McConaughey,Difficult,13
+1073,Matthew Perry,Moderate,10
+1074,Matthias Schweighöfer,Difficult,13
+1075,Mel Gibson,Difficult,13
+1076,Meryl Streep,Difficult,13
+1077,Mette Marit,Difficult,13
+1078,Michael Caine,Difficult,13
+1079,Michael Douglas,Difficult,13
+1080,Michael J. Fox,Difficult,13
+1081,Michael Jackson,Moderate,10
+1082,Michael Jordan,Difficult,13
+1083,Michelangelo,Difficult,13
+1084,Michelle Pfeiffer,Difficult,13
+1085,Mick Jagger,Difficult,13
+1086,Mike Myers,Difficult,13
+1087,Mila Kunis,Difficult,13
+1088,Miles Davis,Difficult,13
+1089,Miranda Richardson,Difficult,13
+1090,Mona Lisa,Moderate,10
+1091,Monica Bellucci,Difficult,13
+1092,Morgan Freeman,Difficult,13
+1093,Mother Teresa,Moderate,10
+1094,Muhammad Ali,Moderate,10
+1095,Naomi Watts,Difficult,13
+1096,Napoleon Bonaparte,Moderate,10
+1097,Natalie Portman,Difficult,13
+1098,Neil Armstrong,Moderate,10
+1099,Nelson Mandela,Moderate,10
+1100,Nicola Tesla,Difficult,13
+1101,Nicolas Cage,Difficult,13
+1102,Nicole Kidman,Difficult,13
+1103,Orson Welles,Difficult,13
+1104,Owen Wilson,Moderate,10
+1105,Pablo Picasso,Moderate,10
+1106,Patrick Stewart,Difficult,13
+1107,Paul Walker,Moderate,10
+1108,Peter Sellers,Difficult,13
+1109,Pope John Paul II,Difficult,13
+1110,Prinzessin Diana,Moderate,10
+1111,Rachel Weisz,Difficult,13
+1112,Rami Malek,Difficult,13
+1113,Rembrandt,Difficult,13
+1114,Richard Gere,Difficult,13
+1115,Robert De Niro,Difficult,13
+1116,Robert Downey Jr.,Moderate,10
+1117,Robert Pattinson,Difficult,13
+1118,Robert Redford,Difficult,13
+1119,Robin Williams,Difficult,13
+1120,Ronald Reagan,Difficult,13
+1121,Rowan Atkinson,Difficult,13
+1122,Russell Crowe,Difficult,13
+1123,Salvador Dali,Difficult,13
+1124,Samuel L. Jackson,Difficult,13
+1125,Scarlett Johansson,Moderate,10
+1126,Sean Connery,Difficult,13
+1127,Sean Penn,Difficult,13
+1128,Shahrukh Khan,Moderate,10
+1129,Sir Isaac Newton,Moderate,10
+1130,Stanley Kubrick,Difficult,13
+1131,Steve Jobs,Difficult,13
+1132,Susan Sarandon,Difficult,13
+1133,Sylvester Stallone,Difficult,13
+1134,Tim Allen,Difficult,13
+1135,Tobey Maguire,Difficult,13
+1136,Tom Cruise,Moderate,10
+1137,Tom Hanks,Difficult,13
+1138,Tom Hardy,Difficult,13
+1139,Tommy Lee Jones,Difficult,13
+1140,Uma Thurman,Difficult,13
+1141,Vin Diesel,Moderate,10
+1142,Vincent Van Gogh,Difficult,13
+1143,Vladimir Lenin,Moderate,10
+1144,Walt Disney,Moderate,10
+1145,Warren Buffet,Difficult,13
+1146,Will Smith,Moderate,10
+1147,William Shakespeare,Moderate,10
+1148,William Shatner,Difficult,13
+1149,Winston Churchill,Difficult,13
+1150,Wolfgang Amadeus Mozart,Difficult,13
+1151,Woody Allen,Moderate,10
+1152,Woody Harrelson,Difficult,13
+1153,Yuri Gagarin,Difficult,13
+1154,Zooey Deschanel,Difficult,13
+1155,Aerobics ,Easy,6
+1156,Aikido,Moderate,10
+1157,Air Hockey,Very Easy,4
+1158,Airsoft,Easy,6
+1159,Amateur radio direction finding,Challenging,17
+1160,American Football,Easy,6
+1161,American Handball,Easy,6
+1162,Apnoea diving,Moderate,10
+1163,Apparatus gymnastics,Moderate,10
+1164,Aquaball,Easy,6
+1165,Archery,Very Easy,4
+1166,Arm wrestling,Easy,6
+1167,Athletics,Easy,6
+1168,Australian Football,Easy,6
+1169,Autoball,Easy,6
+1170,Axe throwing,Easy,6
+1171,Backgammon,Moderate,10
+1172,Badminton,Very Easy,4
+1173,Ballooning,Easy,6
+1174,Base jumping,Easy,6
+1175,Baseball,Very Easy,4
+1176,Basketball,Very Easy,4
+1177,Beach basketball,Easy,6
+1178,Beach handball,Easy,6
+1179,Beach soccer,Easy,6
+1180,Beach volleyball,Easy,6
+1181,Beachminton,Easy,6
+1182,Beachrugby,Easy,6
+1183,Bench Press,Easy,6
+1184,Biathlon,Difficult,13
+1185,Billiards,Easy,6
+1186,BMX riding,Easy,6
+1187,Bobsleigh,Difficult,13
+1188,Boccia,Difficult,13
+1189,Bodybuilding,Easy,6
+1190,Boomerang throwing,Moderate,10
+1191,Bouldering,Moderate,10
+1192,bowling,Very Easy,4
+1193,Boxing,Very Easy,4
+1194,Breakdance,Easy,6
+1195,Bridge,Easy,6
+1196,Bullfighting,Easy,6
+1197,Bungee jumping,Easy,6
+1198,Burning ball,Easy,6
+1199,Camel race,Easy,6
+1200,Canoe slalom,Difficult,13
+1201,Canyoning,Moderate,10
+1202,Capoeira,Difficult,13
+1203,Carambolage,Difficult,13
+1204,Checkers,Easy,6
+1205,Cheerleading,Easy,6
+1206,Chess,Easy,6
+1207,Climbing,Easy,6
+1208,Cockfighting,Easy,6
+1209,Cricket,Very Easy,4
+1210,Cross-country skiing,Easy,6
+1211,CrossFit,Easy,6
+1212,Crossgolf,Easy,6
+1213,Curling,Easy,6
+1214,Darts,Very Easy,4
+1215,Discus throw,Easy,6
+1216,Diving,Easy,6
+1217,Dodgeball,Easy,6
+1218,Drag racing,Easy,6
+1219,Dressage riding,Easy,6
+1220,Egg walking,Moderate,10
+1221,Endurance riding,Moderate,10
+1222,Fencing,Easy,6
+1223,Field hockey,Easy,6
+1224,Figure skating,Easy,6
+1225,Finger-wrestling,Easy,6
+1226,Fishing,Very Easy,4
+1227,Flamenco,Moderate,10
+1228,Footbag (Hacky Sack),Easy,6
+1229,Geocaching,Moderate,10
+1230,Gliding,Easy,6
+1231,Golf,Easy,6
+1232,Guard or exhibition dance,Moderate,10
+1233,Gymnastics,Easy,6
+1234,Hammer throw,Easy,6
+1235,Handball,Easy,6
+1236,High jump,Easy,6
+1237,Hiking,Easy,6
+1238,Horse racing,Very Easy,4
+1239,Horse riding,Very Easy,4
+1240,Hurdles,Easy,6
+1241,Ice freestyle,Easy,6
+1242,Ice hockey,Very Easy,4
+1243,Javelin throw,Easy,6
+1244,Jazz Dance,Easy,6
+1245,Judo,Easy,6
+1246,Karate,Easy,6
+1247,Karting,Easy,6
+1248,Kickboxing,Easy,6
+1249,Kitesurfing,Easy,6
+1250,Kung fu,Easy,6
+1251,Line dance,Easy,6
+1252,Long distance running,Easy,6
+1253,Long jump,Easy,6
+1254,Mill,Easy,6
+1255,Miniature golf,Easy,6
+1256,Mountain bike,Easy,6
+1257,Mountaineering,Easy,6
+1258,Nordic Walking,Moderate,10
+1259,Paintball,Very Easy,4
+1260,Parkour,Easy,6
+1261,Pigeon shooting,Easy,6
+1262,Pilates,Easy,6
+1263,Ping Pong,Easy,6
+1264,Poker,Easy,6
+1265,Pole vault,Easy,6
+1266,Polo,Very Easy,4
+1267,Pool,Very Easy,4
+1268,Rafting,Very Easy,4
+1269,Rally,Easy,6
+1270,Relay race,Easy,6
+1271,Rodeo,Easy,6
+1272,Rowing,Easy,6
+1273,Rugby,Very Easy,4
+1274,Sailing,Easy,6
+1275,Scrabble,Very Easy,4
+1276,Show jumping,Easy,6
+1277,Shuffleboard,Easy,6
+1278,Skat,Easy,6
+1279,Skateboarding,Very Easy,4
+1280,Ski jumping,Easy,6
+1281,Skittles,Easy,6
+1282,Skydiving,Easy,6
+1283,Snooker,Very Easy,4
+1284,Snowboard,Easy,6
+1285,Soccer,Very Easy,4
+1286,Sport climbing,Easy,6
+1287,Squash,Easy,6
+1288,Steeplechase,Moderate,10
+1289,Streetball,Easy,6
+1290,Sudoku,Very Easy,4
+1291,Surfing ,Easy,6
+1292,Swimming,Very Easy,4
+1293,Synchronized swimming,Moderate,10
+1294,Table soccer,Very Easy,4
+1295,Table tennis,Very Easy,4
+1296,Taekwondo,Easy,6
+1297,Tap dancing,Easy,6
+1298,Tennis,Very Easy,4
+1299,Tipp-Kick,Easy,6
+1300,Trampoline gymnastics,Moderate,10
+1301,Tree trunk throwing,Moderate,10
+1302,Trekking,Easy,6
+1303,Triathlon,Moderate,10
+1304,Triple jump,Easy,6
+1305,Tug of war,Easy,6
+1306,Unicycle Basketball,Moderate,10
+1307,Unicycle Hockey,Moderate,10
+1308,Volleyball,Easy,6
+1309,Wakeboarding,Moderate,10
+1310,Water polo,Easy,6
+1311,Water skiing,Easy,6
+1312,Weightlifting,Easy,6
+1313,Windsurfing,Easy,6
+1314,Wok driving,Moderate,10
+1315,Wrestling,Easy,6
+1316,Yoga,Easy,6
+1317,Air brake,Easy,6
+1318,Airship,Easy,6
+1319,Antenna,Easy,6
+1320,Atomizer,Easy,6
+1321,Backpack,Very Easy,4
+1322,Baking pan,Easy,6
+1323,Ball bearing,Easy,6
+1324,Bedding,Easy,6
+1325,BluRay,Easy,6
+1326,Bowl,Very Easy,4
+1327,Broom,Very Easy,4
+1328,Butter dish,Easy,6
+1329,Cable drum,Easy,6
+1330,Cable,Very Easy,4
+1331,Cake bell,Easy,6
+1332,Cake server,Easy,6
+1333,Can opener,Easy,6
+1334,Carpet cleaner,Easy,6
+1335,Carpet,Easy,6
+1336,Cassette recorder,Easy,6
+1337,CD,Easy,6
+1338,Centrifuge,Moderate,10
+1339,Chopsticks,Very Easy,4
+1340,Cleaning bucket,Easy,6
+1341,Clothesline,Easy,6
+1342,Clothespin,Easy,6
+1343,Coat hanger,Easy,6
+1344,Coffee filter,Easy,6
+1345,Coffee machine,Easy,6
+1346,Coffee maker,Easy,6
+1347,Colander,Easy,6
+1348,Computer mouse,Easy,6
+1349,Computer tomograph,Moderate,10
+1350,Computer,Very Easy,4
+1351,Contact lenses,Easy,6
+1352,Corkscrew,Easy,6
+1353,Credit card,Very Easy,4
+1354,Cutlery,Very Easy,4
+1355,Cutting board,Easy,6
+1356,Digital camera,Very Easy,4
+1357,Dish towels,Easy,6
+1358,Dishes,Very Easy,4
+1359,Dishwasher,Very Easy,4
+1360,Duster,Easy,6
+1361,Dustpan,Easy,6
+1362,DVD,Easy,6
+1363,Dynamo,Easy,6
+1364,Egg cup,Easy,6
+1365,Egg stove,Easy,6
+1366,Egg timer,Easy,6
+1367,Exercise bike,Easy,6
+1368,Extension cord,Very Easy,4
+1369,Fan heater,Easy,6
+1370,Fan,Easy,6
+1371,Feather duster,Easy,6
+1372,Flag,Very Easy,4
+1373,Flashlight,Easy,6
+1374,Fountain pen,Easy,6
+1375,Four-stroke engine,Easy,6
+1376,Freezer,Easy,6
+1377,Garlic press,Very Easy,4
+1378,Gas turbine,Easy,6
+1379,Gasoline engine,Easy,6
+1380,Geiger counter,Moderate,10
+1381,Hair dryer / blow dryer,Easy,6
+1382,Hammer,Easy,6
+1383,Hand vacuum cleaner,Moderate,10
+1384,Hard disk,Easy,6
+1385,Heat blanket,Easy,6
+1386,Heating pad,Easy,6
+1387,Helicopter,Very Easy,4
+1388,High pressure cleaner,Easy,6
+1389,Home theater,Easy,6
+1390,Household scissors,Easy,6
+1391,Hovercraft,Moderate,10
+1392,Humidifier,Moderate,10
+1393,Hydrogen bomb,Easy,6
+1394,Inkjet printer,Easy,6
+1395,Iron,Easy,6
+1396,Ironing board,Easy,6
+1397,Jet engine,Easy,6
+1398,Jet plane,Very Easy,4
+1399,Kettle,Easy,6
+1400,Keyboard,Easy,6
+1401,Kitchen broom,Easy,6
+1402,Kitchen knife,Easy,6
+1403,Kitchen scale,Moderate,10
+1404,Kitchen towels,Easy,6
+1405,Ladder,Easy,6
+1406,Laser printer,Moderate,10
+1407,Laundry basket,Easy,6
+1408,Light bulb,Easy,6
+1409,Longplaying record,Moderate,10
+1410,Makeup mirror,Easy,6
+1411,Massager,Easy,6
+1412,Monitor,Easy,6
+1413,Mop,Very Easy,4
+1414,Mouse pad,Easy,6
+1415,Multiple socket,Easy,6
+1416,Nail scissors,Easy,6
+1417,Pacemaker,Moderate,10
+1418,Padlock,Easy,6
+1419,Personal scale,Easy,6
+1420,Phone,Easy,6
+1421,Pillow,Very Easy,4
+1422,Plunger,Easy,6
+1423,Pot,Very Easy,4
+1424,Potato masher,Easy,6
+1425,Potato peeler,Easy,6
+1426,Railroad,Easy,6
+1427,Refrigerator,Easy,6
+1428,Salad servers,Easy,6
+1429,Satellite,Very Easy,4
+1430,Scrubber,Easy,6
+1431,Sewing needle,Easy,6
+1432,Sewing thread,Easy,6
+1433,Shoe polisher,Easy,6
+1434,Shower curtain,Easy,6
+1435,Smartphone,Very Easy,4
+1436,Solar cell,Easy,6
+1437,Soldering iron,Easy,6
+1438,Spark plug,Easy,6
+1439,Spray can,Easy,6
+1440,Steam iron,Easy,6
+1441,Stirring spoon,Easy,6
+1442,Streetcar,Easy,6
+1443,Sunbed,Easy,6
+1444,Tablecloth,Easy,6
+1445,Tank,Very Easy,4
+1446,Tea pot,Easy,6
+1447,Tea strainer,Easy,6
+1448,Telegraph,Easy,6
+1449,Toaster,Easy,6
+1450,Toilet brush,Easy,6
+1451,Toilet roll holder,Easy,6
+1452,Toothbrush cup,Easy,6
+1453,Touchpad,Very Easy,4
+1454,Transistor,Easy,6
+1455,Trash can,Very Easy,4
+1456,Tray,Very Easy,4
+1457,Trekking backpack,Easy,6
+1458,TV,Very Easy,4
+1459,Typewriter,Moderate,10
+1460,USB cable,Easy,6
+1461,USB stick,Easy,6
+1462,Vacuum cleaner,Easy,6
+1463,Wardrobe,Very Easy,4
+1464,Washer dryer,Easy,6
+1465,Washing machine,Very Easy,4
+1466,Waterbed,Easy,6
+1467,Watering can,Easy,6
+1468,Whisk,Easy,6
+1469,12 Monkeys,Moderate,10
+1470,12 Years a Slave,Moderate,10
+1471,2001: A Space Odyssey,Moderate,10
+1472,A Beautiful Mind,Moderate,10
+1473,Alien,Moderate,10
+1474,American Beauty,Moderate,10
+1475,American History X,Moderate,10
+1476,Amélie,Moderate,10
+1477,Apocalypse Now,Moderate,10
+1478,Back to the Future,Moderate,10
+1479,Batman Begins,Moderate,10
+1480,Ben Hur,Moderate,10
+1481,Braveheart,Moderate,10
+1482,Casablanca,Moderate,10
+1483,Casino,Moderate,10
+1484,Catch Me If You Can,Easy,6
+1485,Citizen Kane,Moderate,10
+1486,City of God,Moderate,10
+1487,Das Boot,Moderate,10
+1488,Deadpool,Easy,6
+1489,Der Blade Runner,Moderate,10
+1490,Der König der Löwen,Moderate,10
+1491,Die Hard,Moderate,10
+1492,Django Unchained,Moderate,10
+1493,Donnie Darko,Moderate,10
+1494,Downfall,Moderate,10
+1495,Fight Club,Moderate,10
+1496,Findet Nemo,Moderate,10
+1497,Forrest Gump,Moderate,10
+1498,Full Metal Jacket,Moderate,10
+1499,Gladiator,Moderate,10
+1500,Gone with the Wind,Moderate,10
+1501,Good Will Hunting,Moderate,10
+1502,Goodfellas,Moderate,10
+1503,Gran Torino,Moderate,10
+1504,Grand Budapest Hotel,Moderate,10
+1505,Guardians of the Galaxy,Easy,6
+1506,Harry Potter,Very Easy,4
+1507,How to Train Your Dragon,Moderate,10
+1508,Inception,Moderate,10
+1509,Indiana Jones and the Last Crusade,Moderate,10
+1510,Inglourious Basterds,Moderate,10
+1511,Inside Out,Easy,6
+1512,Interstellar,Easy,6
+1513,Into the Wild,Moderate,10
+1514,Jaws,Easy,6
+1515,Jurassic Park,Easy,6
+1516,Kill Bill: Vol. 1,Moderate,10
+1517,LA Confidential,Moderate,10
+1518,Lawrence of Arabia,Moderate,10
+1519,"Lock, Stock and Two Smoking Barrels",Moderate,10
+1520,Léon - Der Profi,Moderate,10
+1521,Mad Max: Fury Road,Moderate,10
+1522,Memento,Moderate,10
+1523,Million Dollar Baby,Easy,6
+1524,"Monsters, Inc.",Easy,6
+1525,Monty Python and the Holy Grail,Challenging,17
+1526,Monty Python's Life of Brian,Moderate,10
+1527,No Country for Old Men,Moderate,10
+1528,Once Upon a Time in the West,Moderate,10
+1529,Pirates of the Caribbean,Easy,6
+1530,Platoon,Moderate,10
+1531,Psycho,Moderate,10
+1532,Pulp Fiction,Moderate,10
+1533,Reservoir Dogs,Moderate,10
+1534,Rocky,Moderate,10
+1535,Saving Private Ryan,Moderate,10
+1536,Scarface,Moderate,10
+1537,Schindler's List,Moderate,10
+1538,Se7en,Moderate,10
+1539,Shining,Moderate,10
+1540,Shutter Island,Moderate,10
+1541,Sin City,Moderate,10
+1542,Star Wars: Episode IV - A New Hope,Easy,6
+1543,Taxi Driver,Moderate,10
+1544,The Avengers,Easy,6
+1545,The Big Lebowski,Moderate,10
+1546,The Bourne Ultimatum,Moderate,10
+1547,The Dark Knight,Easy,6
+1548,The Departed,Moderate,10
+1549,The Godfather,Moderate,10
+1550,"The Good, the Bad and the Ugly",Moderate,10
+1551,The Great Dictator,Moderate,10
+1552,The Green Mile,Moderate,10
+1553,The Intouchables,Moderate,10
+1554,The Lives of Others,Moderate,10
+1555,The Lord of the Rings,Easy,6
+1556,The Martian,Moderate,10
+1557,The Matrix,Easy,6
+1558,The Pianist,Moderate,10
+1559,The Revenant - Der Rückkehrer,Moderate,10
+1560,The Shawshank Redemption,Moderate,10
+1561,The Silence of the Lambs,Moderate,10
+1562,The Sixth Sense,Moderate,10
+1563,The Terminator,Moderate,10
+1564,The Truman Show,Moderate,10
+1565,The Usual Suspects,Moderate,10
+1566,The Wizard of Oz,Easy,6
+1567,The Wolf of Wall Street,Easy,6
+1568,Toy Story,Easy,6
+1569,Up,Moderate,10
+1570,V for Vendetta,Moderate,10
+1571,WALL·E,Moderate,10
+1572,Zootopia,Easy,6
+1573,Ad Blocker,Easy,6
+1574,Amazon,Very Easy,4
+1575,App Store,Very Easy,4
+1576,Avatar,Easy,6
+1577,Bitcoin,Easy,6
+1578,Blockchain,Moderate,10
+1579,Blog,Very Easy,4
+1580,Browser,Very Easy,4
+1581,Cloud,Easy,6
+1582,Coinbase,Easy,6
+1583,Dark Web,Very Easy,4
+1584,Download,Very Easy,4
+1585,eBay,Easy,6
+1586,eBook,Easy,6
+1587,Emoticon,Very Easy,4
+1588,Facebook,Very Easy,4
+1589,Google,Very Easy,4
+1590,Hacker,Easy,6
+1591,Hype,Moderate,10
+1592,Influencer,Easy,6
+1593,Instagram,Very Easy,4
+1594,Junk,Easy,6
+1595,Login,Very Easy,4
+1596,Logout,Very Easy,4
+1597,Malware,Moderate,10
+1598,Mention,Very Easy,4
+1599,Nerd,Very Easy,4
+1600,Netflix,Very Easy,4
+1601,Newsletter,Easy,6
+1602,Online Dating,Very Easy,4
+1603,Password,Very Easy,4
+1604,PayPal,Easy,6
+1605,Pinterest,Very Easy,4
+1606,Privacy,Easy,6
+1607,Reddit,Moderate,10
+1608,Signal,Easy,6
+1609,Snapchat,Easy,6
+1610,Spam,Easy,6
+1611,Spotify,Very Easy,4
+1612,Telegram,Very Easy,4
+1613,Tidal,Moderate,10
+1614,Tinder,Easy,6
+1615,Tweet,Very Easy,4
+1616,Twitch,Moderate,10
+1617,Twitter,Easy,6
+1618,Update,Very Easy,4
+1619,viral,Easy,6
+1620,Virus,Easy,6
+1621,VPN,Easy,6
+1622,Webcam,Easy,6
+1623,WhatsApp,Very Easy,4
+1624,Wikipedia,Very Easy,4
+1625,YouTube,Very Easy,4
