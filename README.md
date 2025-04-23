@@ -26,5 +26,5 @@ A digital version of the classic **Taboo** party game! In this game, players try
 ### If it's a Python CLI or GUI:
 1. Clone the repo:
 ```bash
-git clone https://github.com/your-username/taboo-game.git
+git clone https://github.com/salonit11/taboo-game.git
 cd taboo-game
